@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	 <!-- Medya Kütüphanesi Erişim İzni -->
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app, needs this permission for music library access.</string>
+	<!-- Dosya Paylaşımı İzni -->
+	<key>UIFileSharingEnabled</key>
+	<string>This permission necessary for sharing documents access.</string>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<string>This permission necessary for opening documents support access</string>
+	<true/>
+	 <!-- Fotoğraf Kütüphanesi Erişim İzni -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This permission necessary for photo library access.</string>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
