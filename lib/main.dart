@@ -14,28 +14,22 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Center(child: const Text('Andromedia Logosu')),
         ),
-        bottomNavigationBar: BottomNavigationBar(items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home), 
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.play_circle_fill),
-            label: 'Müzik',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.list),
-            label: 'Playlist',
-          ),
-        ],
+        bottomNavigationBar: BottomNavigationBar(
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: 'Home',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.play_circle_fill),
+              label: 'Müzik',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.list),
+              label: 'Playlist',
+            ),
+          ],
         ),
-        body: Padding(
-          padding: const EdgeInsets.all(20.0),
-          child: Row(
-            
-          ),
-        ),
-        
       ),
     );
   }
