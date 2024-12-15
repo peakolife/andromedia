@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:andromedia/pages/home_page.dart';
+import 'package:andromedia/pages/music_page.dart';
+import 'package:andromedia/pages/playlist_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,27 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Center(child: const Text('Andromedia Logosu')),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.play_circle_fill),
-              label: 'Müzik',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.list),
-              label: 'Playlist',
-            ),
-          ],
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+
     );
   }
 }
